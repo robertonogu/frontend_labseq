@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    margin-left: 5px;
+}
+
+label {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+button {
+    font-size: 15px;
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.786);
+    color: white;
+}
+
+table, tr, td, th {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table {
+    text-align: center;
+}
+
+.firstDiv {
+    float: left;
+}
+
+.secondDiv {
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+}
+
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
